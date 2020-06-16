@@ -1,4 +1,4 @@
-Application information sample app;
+**Application information sample app;**
 
 
 Application Name  
