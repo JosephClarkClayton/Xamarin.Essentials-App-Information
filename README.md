@@ -7,5 +7,5 @@ Application Version (1.0.0)
 Application Build Number (1)
 
 ![GitHub Logo](logo.png)
-Format: ![Alt Text](url)
+
 
