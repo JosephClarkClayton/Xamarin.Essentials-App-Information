@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:String="clr-namespace:AppInformation.StaticString"
+             x:Class="App_Information.MainPage">
+
+    <StackLayout>
+        <Label Text="{x:Static String:StaticStrings.appName}" Style="{StaticResource l0}"/>
+        <Label Text="{Binding appName}" Style="{StaticResource l1}"/>
+
+        <Label Text="{x:Static String:StaticStrings.packageName}" Style="{StaticResource l0}"/>
+        <Label Text="{Binding packageName}" Style="{StaticResource l1}"/>
+
+        <Label Text="{x:Static String:StaticStrings.version}" Style="{StaticResource l0}"/>
+        <Label Text="{Binding version}" Style="{StaticResource l1}"/>
+
+        <Label Text="{x:Static String:StaticStrings.build}" Style="{StaticResource l0}"/>
+        <Label Text="{Binding build}" Style="{StaticResource l1}"/>
+
+        <Button Text="{x:Static String:StaticStrings.ShowSettingsUI}" Command="{Binding ShowSettingsUICommand}"/>
+    </StackLayout>
+
+</ContentPage>
