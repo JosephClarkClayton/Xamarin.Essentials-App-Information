@@ -6,6 +6,6 @@ Package Name/Application Identifier (com.microsoft.testapp)
 Application Version (1.0.0)
 Application Build Number (1)
 
-![GitHub Logo](logo.jpg 100x100)
+![GitHub Logo](logo.jpg | 100x100)
 Format: ![Alt Text](url)
 
